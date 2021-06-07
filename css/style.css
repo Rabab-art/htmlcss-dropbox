@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Top bar */
+
+.col-bar{
+ height: 150px;
+}
+.logo{
+vertical-align: middle;
+}
+
+.li{
+    display: inline-block;
+}
