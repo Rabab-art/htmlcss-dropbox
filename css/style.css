@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: aqua;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after{
@@ -16,9 +16,8 @@ body{
 header{
    margin: 0 auto;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
-}
+
+
 
 /* Top bar */
 
@@ -83,4 +82,18 @@ li{
     color: white;
     font-weight: bolder;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Main */
+
+
+.main-header{
+    height: 400px;
+    margin: 0 auto;
+    background-color:rgb(101, 174, 241);
+}
+
+.titol{
+font-size: 50px;
+ font-weight: bolder;
 }
