@@ -28,6 +28,7 @@ header{
  margin: 0 auto;
  background-color: white;
  position: fixed;
+ z-index: 1;
 }
 
 .col-w10,.col-w45{
@@ -99,7 +100,7 @@ li{
 
 
 .titol{
- font-size: 40px;
+ font-size: 42px;
  font-weight: 800;
  position: absolute;
  top: 25%;
@@ -153,13 +154,13 @@ img{
     font-weight: 900;
 }
 
- /* Sezione box incolonnati */
+  /* Sezione box incolonnati  */
 
-.container{
-    max-width: 900px;
+ .container{
+    max-width: 1000px;
     margin: 0 auto;
     margin-top: 150px;
-}
+} 
 .drop-business{
     text-align: justify;
 }
@@ -309,4 +310,38 @@ margin: 1% 1%;
     padding: 15px;
 }
 
-<!-- sezione immagine con testo -->
+/* sezione immagine con testo */
+.partner-box{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.col-60{
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+.col-40{
+    float: right;
+    width: 40%;
+    padding: 20px;
+}
+
+
+#partner{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.img-partner{
+    width: 100%;
+}
+
+.partner-buttom{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
