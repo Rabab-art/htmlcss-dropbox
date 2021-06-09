@@ -494,3 +494,69 @@ nav img{
     margin-right: 10px;
 }
 
+.question-box{
+    width: 900px;
+    margin: 0 auto;
+    line-height:2 em;
+    margin-bottom: 100px;
+    
+}
+
+
+.question-box h4{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.question ul li h5{
+ font-size: 18px;
+ display: inline-block;
+ position: relative;
+ 
+}
+
+.question .brake-line{
+    width: 900px;
+    margin-bottom: 30px;
+    color: grey;
+}
+
+.fa-sort-down{
+   position: absolute;
+   right:20% ;
+   
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+}
+.black-row{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 400px;   
+}
+
+.black-col{
+    float: left;
+    width: calc(100% / 5);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.black-section{
+    color: white;
+}
+.black-section h4{
+    margin-bottom: 10px;
+}
+.black-section ul li{
+    display: block;
+
+}
+
+.brake-line-white{
+    border: 2px solid white;
+    width: 30%;
+}
