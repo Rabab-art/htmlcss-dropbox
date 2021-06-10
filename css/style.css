@@ -103,7 +103,7 @@ li{
  font-size: 42px;
  font-weight: 800;
  position: absolute;
- top: 25%;
+ top: 30%;
  left: 50%;
  transform: translate(-50%, -50%);
  width: 1100px;
@@ -115,7 +115,7 @@ li{
 
 .col-w30, .col-w70{
     float: left;
-    margin-top: 25%;    
+    margin-top: 30%;    
 }
 
 .col-w30{
@@ -125,7 +125,7 @@ li{
 .col-w70{
     width: 67%;
     margin: 0 1%;
-    margin-top: 25%;
+    margin-top: 30%;
 }
 .first-text-box{  
     font-size: 18px;
@@ -139,7 +139,7 @@ li{
     text-decoration: none;
     text-align: center;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -149,9 +149,10 @@ img{
     max-width: 100%;
 }
 
-#arrow{
+
+i.fas.fa-arrow-down {
+    margin-top: 20px;
     font-size: 50px;
-    font-weight: 900;
 }
 
   /* Sezione box incolonnati  */
@@ -192,7 +193,7 @@ h2{
 
 
 #user{
-    /* margin-left: 40%; */
+    margin-top: 10px;
     vertical-align: middle; 
     text-align: center;
     font-weight: bolder;  
@@ -248,6 +249,7 @@ h5{
 
 #buy-it{
     color: rgb(4, 61, 218);
+    padding: 1%;
 }
 .brake-line{
     margin-top: 30px;
@@ -326,7 +328,7 @@ margin: 1% 1%;
 .col-40{
     float: right;
     width: 40%;
-    padding: 20px;
+    padding: 1%;
 }
 
 
@@ -352,6 +354,7 @@ margin: 1% 1%;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 1%;
 }
 
 .row-operation{
@@ -374,7 +377,7 @@ img{
 /* sezione clienti */
 
 .small-box{
-    width: 900px;
+    width: 1000px;
     margin:0 auto;
     margin-bottom: 50px;
 }
@@ -383,6 +386,7 @@ img{
     width: 80%;
     margin-bottom:50px;
     margin-top: 100px;
+    padding: 1%;
 }
 
 #small-boxes .col{
@@ -467,7 +471,7 @@ nav img{
 .business-box{
     background-color: lightskyblue;
     margin-top: 0;
-   height: 200px;
+    height: 200px;
 }
 
 .section-business{
@@ -476,9 +480,9 @@ nav img{
 }
 
 .w-75{
-    width: 75%;
+    width: 75%; 
     height: 100%;
-    font-size: 50px;   
+    font-size: 50px; 
 }
 
 .test-white{
@@ -545,18 +549,27 @@ footer{
     margin-top: 30px;
 }
 
-.black-section{
+.black-section h4{
+    color: white;
+}
+.black-section a{
     color: white;
 }
 .black-section h4{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .black-section ul li{
-    display: block;
-
+   display: block;
+   line-height: 1.5;
 }
 
 .brake-line-white{
-    border: 2px solid white;
-    width: 30%;
+    border: 1px solid white;
+    width: 80%;
+    margin-top: 50%;
+    margin-bottom: 20%;
+}
+
+.lang{
+    color: white;
 }
